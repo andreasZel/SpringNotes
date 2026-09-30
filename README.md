@@ -139,6 +139,14 @@ To define the `contract` of the service usage, we create an `interface`with the 
 	>}
 	> ```
 
+- when to use an `abstract` class?
+
+We use abstract classes whenever we want `shared machinery`. 
+
+Meaning that it can only be `extended by one class`. 
+
+We can also use it with combination with `protected` methods for subclasses to only use (as well as the package, but not the whole app).
+
 ## DTOs
 
 They are the boundary between the app and the outside world or the API Shape.
